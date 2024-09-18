@@ -56,11 +56,11 @@ function verificarContrasena(password){
             mensaje.innerText = 'Media';
             break;
         case 4:
-            cambiarColor(1);
+            cambiarColor(2);
             mensaje.innerText = 'Fuerte';
             break;
         case 5:
-            cambiarColor(2);
+            cambiarColor(3);
             mensaje.innerText = 'Muy fuerte';
             break;
         default:
@@ -79,8 +79,11 @@ function cambiarColor(color) {
         contrasena.style.border = '5px solid #ffff00'; 
         break;
     case 2:
-        contrasena.style.border = '5px solid #008f39';
+        contrasena.style.border = '5px solid #89ac76';
         break; 
+    case 3:
+        constrasena.style.border = '5px solid #008f39';
+        break;       
     default:
         break;
 
