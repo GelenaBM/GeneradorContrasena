@@ -82,8 +82,8 @@ function cambiarColor(color) {
         contrasena.style.border = '5px solid #89ac76';
         break; 
     case 3:
-        constrasena.style.border = '5px solid #008f39';
-        break;       
+        contrasena.style.border = '5px solid #008f39';
+        break; 
     default:
         break;
 
